@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_projects_projects",
+  "info": {
+    "displayName": "Projects",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
