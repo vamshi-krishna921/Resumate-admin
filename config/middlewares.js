@@ -6,9 +6,7 @@ module.exports = [
     name: "strapi::cors",
     config: {
       enabled: true,
-      origin: [
-        "https://resumate-admin-757h.onrender.com",
-      ],
+      origin: ["https://resumate-admin-757h.onrender.com"],
     },
   },
   "strapi::poweredBy",
