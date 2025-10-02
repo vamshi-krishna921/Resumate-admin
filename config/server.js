@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
   host: env("HOST", "0.0.0.0"),
-  port: process.env.PORT || 1337, // Use Render's port directly
+  port: parseInt(process.env.PORT, 10),
   app: {
     keys: env.array("APP_KEYS"),
   },
